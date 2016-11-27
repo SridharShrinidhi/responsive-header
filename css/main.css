@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Ubuntu', sans-serif;
+  font: normal 100%/1.3 Ubuntu, sans-serif;
 }
 
 *, *::before, *::after {
@@ -26,34 +26,36 @@ header {
   color: #fff;
 }
 
-h1 {
+header h1 {
   padding: .3em 0 .5em;
   margin: 0;
+  font-size: 2rem;
 }
 
 nav ul {
   list-style-type: none;
+  overflow: hidden;
+  font-size: 1.125rem;
 }
 
-a {
+nav a {
   display: block;
   text-decoration: none;
   color: #6c8fe0;
+  padding: .75em;
+  white-space: nowrap;
 }
 
-a:hover {
+nav a:hover {
   background-color: #6c8fe0;
   color: #fff;
-}
-
-a {
-  padding: .75em;
 }
 
 @media only screen and (min-width: 20em) {
 
   html {
-    font: normal 100%/ 1.3 sans-serif;
+    font-size: 100%;
+    line-height: 1.3;
   }
 
   a:hover {
@@ -74,7 +76,8 @@ a {
 @media only screen and (min-width: 25em) {
 
   html {
-    font: normal 100%/ 1.3 sans-serif;
+    font-size: 100%;
+    line-height: 1.3;
   }
 
   ul li {
@@ -107,7 +110,8 @@ a {
 @media only screen and (min-width: 38em) {
 
   html {
-    font: normal 110%/ 1.4 sans-serif;
+    font-size: 110%;
+    line-height: 1.4;
   }
 
   li:first-child {
@@ -135,7 +139,8 @@ a {
 @media only screen and (min-width: 60em) {
 
   html {
-    font: normal 120%/ 1.5 sans-serif;
+    font-size: 120%;
+    line-height: 1.5;
   }
 
   header {
@@ -186,7 +191,8 @@ a {
 @media only screen and (min-width: 90em) {
 
   html {
-    font: normal 120%/ 1.5 sans-serif;
+    font-size: 130%;
+    line-height: 1.6;
   }
 
 }
